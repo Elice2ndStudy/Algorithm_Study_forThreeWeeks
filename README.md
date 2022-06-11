@@ -13,7 +13,7 @@ SW 엔지니어 트랙 2기 - 2차 스터디 (코딩테스트 준비/알고리�
 <table>
   <tr>
     <td align="center">
-        <a href="https://github.com/shinbian11" target="_blank">
+        <a href="https://github.com/shinbian11" >
             <img src="./img/shinbian11.png"  width="100px;" alt="김지환"/><br />
             <sub>
                 <b>김지환</b><br>
@@ -22,7 +22,7 @@ SW 엔지니어 트랙 2기 - 2차 스터디 (코딩테스트 준비/알고리�
         <br />
     </td>
     <td align="center">
-        <a href="https://github.com/tmdeksdl" target="_blank">
+        <a href="https://github.com/tmdeksdl" >
             <img src="./img/tmdeksdl.png"  width="100px;" alt="박승준"/><br />
             <sub>
                 <b>박승준</b><br>
@@ -31,7 +31,7 @@ SW 엔지니어 트랙 2기 - 2차 스터디 (코딩테스트 준비/알고리�
         <br />
     </td>
    <td align="center">
-        <a href="https://github.com/hovelopin" target="_blank">
+        <a href="https://github.com/hovelopin" >
             <img src="./img/hovelopin.png"  width="100px;" alt="김호진"/><br />
             <sub>
                 <b>김호진</b><br>
@@ -40,7 +40,7 @@ SW 엔지니어 트랙 2기 - 2차 스터디 (코딩테스트 준비/알고리�
         <br />
     </td>
     <td align="center">
-        <a href="https://github.com/MadDawgs" target="_blank">
+        <a href="https://github.com/MadDawgs" >
             <img src="./img/MadDawgs.png"  width="100px;" alt="김태준"/><br />
             <sub>
                 <b>김태준</b><br>
@@ -49,7 +49,7 @@ SW 엔지니어 트랙 2기 - 2차 스터디 (코딩테스트 준비/알고리�
         <br />
     </td>
     <td align="center">
-        <a href="https://github.com/hong1995" target="_blank">
+        <a href="https://github.com/hong1995" >
             <img src="./img/hong1995.png"  width="100px;" alt="조재홍"/><br />
             <sub>
                 <b>조재홍</b><br>
@@ -58,7 +58,7 @@ SW 엔지니어 트랙 2기 - 2차 스터디 (코딩테스트 준비/알고리�
         <br />
     </td>
     <td align="center">
-        <a href="https://github.com/dnjwm8612" target="_blank">
+        <a href="https://github.com/dnjwm8612" >
             <img src="./img/dnjwm8612.png"  width="100px;" alt="임병준"/><br />
             <sub>
                 <b>임병준</b><br>
