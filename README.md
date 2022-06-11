@@ -127,13 +127,15 @@ commit 메세지: [BOJ] 문제번호 / 문제명 / 난이도 / 해결한 언어
 
 본인의 repo의 작업한 브랜치 에서, shinbian11 계정 (김지환)의 main 브랜치로 pull request를 보내면 됩니다.
 
-`
+```
+
 head repository 브랜치 : 자신의 local repository
 compare : 자신이 작업한 브랜치
 
 base repository 브랜치 : shinbian11/Algorithm_Study_forThreeWeeks
 base : main 브랜치
-`
+
+```
 
 ### ✅ Pull Request 메세지 규칙
 
@@ -150,10 +152,14 @@ PR 제목: 이름 / 주차 (1~3주차) / 이번주에 총 해결한 문제 수
 ## ✅ 코드리뷰 규칙
 
 <br />
+
 매주 있는 회의에서 코드리뷰를 한다.
 
 <br />
+
 전체 코드 흐름을 파악한 뒤, 다른 분의 풀이를 먼저 읽어보면서 하기 내용들을 생각해본다
+
+<br/>
 
 - 잘했다고 생각되는 부분
 - 이렇게 수정하면 더 좋을 것 같다고 생각되는 부분
