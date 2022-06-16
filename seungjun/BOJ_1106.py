@@ -19,7 +19,4 @@ for cost, customer in arr_sort:
         dp[i] = min(dp[i], dp[i-customer] + cost)
 
 
-
-print(dp)
-
 print(min(dp[c:]))
