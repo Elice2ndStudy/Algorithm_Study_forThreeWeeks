@@ -1,4 +1,4 @@
-# 1로 만들기
+# 1로 만들기.
 # https://www.acmicpc.net/problem/1463
 
 x = int(input())
