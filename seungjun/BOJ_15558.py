@@ -1,4 +1,4 @@
-# 점프 게임
+# 점프 게임.
 # https://www.acmicpc.net/problem/15558
 
 from collections import deque
