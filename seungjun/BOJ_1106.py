@@ -1,4 +1,4 @@
-# 호텔
+# 호텔.
 # https://www.acmicpc.net/problem/1106
 import sys
 input = sys.stdin.readline
