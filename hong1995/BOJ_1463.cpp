@@ -19,5 +19,4 @@ int main(){
         }
     }
     cout << dp[n] << "\n";
-
 }
