@@ -1,4 +1,4 @@
-# 오르막 수
+# 오르막 수.
 # https://www.acmicpc.net/problem/11057
 
 n = int(input())
