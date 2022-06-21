@@ -4,6 +4,7 @@ import math
 n = int(input())
 # 쓰레기값,1,2,3,4번째 케이스를 dp 리스트에 넣어줬음 => index를 맞추기 위해서
 dp = [0,0,1,1,2]
+
 for i in range(5,n+1):
     # 조건 1 , 조건 2 , 조건 3 => 최소값을 구하기 위해서 무한대값으로 지정했음
     one , two , three = math.inf , math.inf , dp[i-1]
