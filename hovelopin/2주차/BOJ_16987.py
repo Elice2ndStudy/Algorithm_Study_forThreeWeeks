@@ -7,7 +7,7 @@ n = int(input())
 egg_list = [list(map(int,input().split())) for _ in range(n)]
 
 def solve(cur):
-    # 현재 마지막이라면 깨진거를 계산해준다.
+    # 현재 마지막까지 다 확인한 상태라면 깨진거를 계산해준다.
     if cur == len(egg_list):
         cnt = 0
         for s,w in egg_list:
@@ -23,9 +23,10 @@ def solve(cur):
             continue
         if egg_list[i][0] > 0:
             break
-        else:
-            return solve(cur+1)
-    # 시물레이션
+    else:
+        return solve(cur+1)
+
+    # 시물레이션 ( 때려보기 )
     answer = 0
     for i in range(len(egg_list)):
         if i == cur:
@@ -33,6 +34,7 @@ def solve(cur):
         if egg_list[i][0] <= 0:
             continue
 
+        # 내구도를 계산해주는 과정
         egg_list[i][0] -= egg_list[cur][1]
         egg_list[cur][0] -= egg_list[i][1]
 
