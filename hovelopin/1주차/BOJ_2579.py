@@ -14,4 +14,4 @@ else:
     # n-2 , n인 경우에는 dp[n-2]의 최대를 구하고 마지막 n만 더해준다. 그 2개의 경우중에 최대값을 구하기
     for i in range(3 , n+1):
         dp[i] = max(dp[i-3]+steps[i-1]+steps[i] , dp[i-2]+steps[i])
-print(dp[n])
+    print(dp[n])

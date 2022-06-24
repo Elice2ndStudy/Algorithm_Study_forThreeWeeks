@@ -31,6 +31,7 @@ for i in range(H):
                 queue.append([i,j,k])
 
 bfs()
+print(farm)
 
 # 한층씩 접근한다.  => 즉 , H 접근
 for i in farm:
@@ -43,5 +44,4 @@ for i in farm:
                 exit()
         cnt= max(cnt , max(j))
 
-print(farm)
 print(cnt-1)
