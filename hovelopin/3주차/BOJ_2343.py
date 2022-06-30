@@ -8,7 +8,8 @@ start , end = max(lesson) , sum(lesson)
 
 while start <= end:
     mid = (start + end) // 2
-    cnt = 0
+    # 최소 1개 이상을 담아야 하기 때문에 cnt를 1로 시작한다.
+    cnt = 1
     temp = 0
 
     # 레슨을 돌면서 합계를 구해준다.
@@ -18,9 +19,7 @@ while start <= end:
             temp = 0
         temp += lesson[i]
 
-    if temp:
-        cnt += 1
-
+    # cnt가 크면 mid를 줄이고 작으면 mid를 올린다
     if cnt <= m:
         end = mid - 1
     else:
