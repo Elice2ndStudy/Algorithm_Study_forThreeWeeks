@@ -61,6 +61,9 @@ def gravity():
                 graph[x][y] = queue.popleft()
             else:
                 graph[x][y] = '.'
+        # for x in range(12):
+        #     print(graph[x])
+        # print("")
 while True:
     check = 0
     for x in range(12):

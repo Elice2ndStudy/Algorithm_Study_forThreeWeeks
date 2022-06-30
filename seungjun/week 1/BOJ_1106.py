@@ -10,7 +10,7 @@ for _ in range(n):
     arr.append(list(map(int, input().split())))
     # [cost, customer]
 
-arr_sort = sorted(arr, key = lambda x: x[0]) 
+arr_sort = sorted(arr, key = lambda x: x[0])
 # x[0]인 cost를 기준으로 오름차순 정리를 해준다
 # 그냥 sorted을 해주어도 되지만 lambda sorting이 더 범용적이라 채택
 
@@ -20,3 +20,4 @@ for cost, customer in arr_sort:
 
 
 print(min(dp[c:]))
+print(dp)

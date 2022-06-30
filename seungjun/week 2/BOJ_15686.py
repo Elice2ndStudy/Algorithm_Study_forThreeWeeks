@@ -18,12 +18,15 @@ for r in range(n):
         if city[r][c] == 2:
             chickens.append([r,c])
 
+    
 # m개의 치킨집을 선택하는 경우의 수를 combo라고 하자
 for combo in combinations(chickens, m):
     total = 0           # total == 도시 치킨집 거리
+    # print(combo)
+    # print("")
     for house in houses:
         distance = 999
-        #각 집마다 치킨집까지의 거리
+        #각 집마다 가장 가까운 치킨집까지의 거리를 total에 저장해줍시다.
         for chicken in combo:
             distance = min(distance, abs(house[0]-chicken[0]) + abs(house[1]-chicken[1]))
         total += distance
