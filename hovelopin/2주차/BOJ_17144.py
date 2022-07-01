@@ -37,6 +37,7 @@ def spread():
                         temp[nx][ny] += cleaner[i][j] // 5
                         tmp += cleaner[i][j] // 5
                 cleaner[i][j] -= tmp
+
     # 임시 배열과 합쳐서 cleaner를 완성시켜준다.
     for i in range(r):
         for j in range(c):

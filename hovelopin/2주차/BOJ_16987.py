@@ -17,7 +17,8 @@ def solve(cur):
     # 현재 손에 든 계란 내구도가 0이라면 깨짐 => 즉 , 다음꺼를 탐색한다.
     if egg_list[cur][0] <= 0:
         return solve(cur+1)
-    # 안깨진 계란이 남아있는지 체크
+
+    # 안깨진 계란이 남아있으면 넘어가고 없으면 다음꺼를 본다.
     for i in range(len(egg_list)):
         if i == cur:
             continue
@@ -44,6 +45,7 @@ def solve(cur):
         egg_list[i][0] += egg_list[cur][1]
         egg_list[cur][0] += egg_list[i][1]
     return answer
+
 print(solve(0))
 
 
